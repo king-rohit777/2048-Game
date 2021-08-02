@@ -1,0 +1,69 @@
+body {
+  font-family: "MyWebfont", georgia, serif; /* Provides a system font fallback. */
+  background-color: #2d3436;
+}
+
+em {
+  font-style: italic; /* If @font-face is supported, the italic Web font is used. If not, the italic Georgia style is lifted from the user's computer. Either way, a faux style is not allowed to creep in. */
+}
+
+p {
+  font-size: 1em; /* Silence is golden; implicity 1em. */
+  line-height: 1.5;
+}
+
+li {
+  font-size: 1em; /* Silence is golden; implicity 1em. */
+  line-height: 1.5;
+}
+
+p + p {
+  text-indent: 1.5em; /* I like to keep the indentation length equal to the line height. */
+}
+
+h1 + p:first-letter {
+  font-size: 2em;
+  line-height: 0; /* The line-height must be adjusted to compensate for the increased font size, otherwise the leading for the overall line is disrupted. I find that any values below 0.4 work. */
+}
+
+/* original */
+.rules-container p {
+  margin: 10px;
+  line-height: 2em;
+  font-size: 0.5cm;
+}
+
+li {
+  line-height: 2em;
+  font-size: 0.5cm;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1cm;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 40%;
+}
+p {
+  padding: 5px;
+  margin: 10px;
+}
+
+.rules-container {
+  margin: 0 auto;
+  border: 1px solid black;
+  max-width: 800px;
+  /* color: antiquewhite; */
+  background-color: aliceblue;
+  box-shadow: 30px 30px 59px #848080, -30px -30px 59px #c0c7a6;
+}
+
+.first {
+  font-size: 2cm;
+}

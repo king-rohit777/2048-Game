@@ -1,0 +1,115 @@
+.top{
+    display:flex;
+    justify-content: center;
+}
+.two{
+    font-size: 7rem;
+    font-weight: bold;
+    color: #FFFF7D;
+}
+.zero{
+    font-size: 5rem;
+    font-weight: bold;
+    color: #FFD7DD;
+}
+.four{
+    font-size: 5rem;
+    font-weight: bold;
+    color: #7D7DFF;
+}
+.eight{
+    font-size: 6rem;
+    font-weight: bold;
+    color: #FFC55C;
+}
+/* Hero */
+.hero{
+    display: flex;
+    justify-content:space-around;
+}
+/* SectionA */
+.sectionA{
+    font-size: 5rem;
+    font-weight: bold;
+    width:40%;
+    /* border: 2px solid #FFFF7D; */
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.sectionA_one{
+    color: #FFFF7D;
+    align-self: flex-end;
+}
+.sectionA_two{
+    color: #FFD7DD;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.decoration{
+    width: 150px;
+    height: 10px;
+    background-color: #7D7DFF;
+}
+.sectionA_three{
+    color: #7D7DFF;
+    align-self: flex-end;
+}
+/* Section B */
+.sectionB{
+    width:40%;
+}
+.sectionB img{
+    width: 450px;
+    height: 400px;
+    /* border: 2px solid #FFB6C1; */
+    border-radius: 10px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+.newgame, .rules{
+    text-decoration: none;
+    margin: 15px;
+    font-size: 1.5rem;
+}
+.newgame{
+    color: #A3A361;
+    border: 2px dashed #FF97FF;
+    padding: 10px 20px;
+}
+.rules{
+    color: #533253;
+    border: 2px dashed #FFC55C;
+    padding: 10px 50px;
+}
+.anim-newgame{
+    animation-duration: 3s;
+}
+/* Eight Bit */
+.eightBit img{
+    height: 70px;
+    width: 50px;
+   
+}
+.eightBit{
+    position: absolute;
+    left: 0px;
+    bottom: 40px;
+    animation: motion 3s ease infinite alternate;
+}
+@keyframes motion {
+    0%, 100% {
+        transform: translate(0, 0);
+      }
+      
+      50% {
+        transform: translate(420px, 0);
+      }
+      
+     
+  }
