@@ -18,7 +18,7 @@ https://alphageeks.netlify.app/
   
 ## Feedback
 
-If you have any feedback, please reach out to me at jrohit123456@gmail.com
+If you have any feedback, please reach out to me at jrohit123456@gmail.com        
 
   
 <!-- ## Screenshots
