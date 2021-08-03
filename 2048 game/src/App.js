@@ -14,7 +14,7 @@ function App() {
   const DOWN = 40;
   const LEFT = 37;
   const RIGHT = 39;
-  // const STOP = 27;
+ 
 
   const INITIAL_DATA = [
     [0, 0, 0, 0],
@@ -38,8 +38,7 @@ function App() {
     visible: false,
     message: '',
   });
-  // Inititalize
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+  
   const initialize = () => {
     let newGrid = cloneDeep(data);
 
