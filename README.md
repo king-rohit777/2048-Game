@@ -33,7 +33,7 @@ If you have any feedback, please reach out to me at jrohit123456@gmail.com
 
 ![App Screenshot](https://github.com/king-rohit777/BREAK-CRAFT/blob/main/lost.PNG) -->
 ## Tech Stack
-
+         
 **Client:** HTML,CSS,SCSS                            
 
 **Server:** Javascript
