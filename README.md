@@ -20,7 +20,7 @@ https://alphageeks.netlify.app/
 
 If you have any feedback, please reach out to me at jrohit123456@gmail.com        
 
-  
+          
 <!-- ## Screenshots
 
 ![App Screenshot](https://github.com/king-rohit777/BREAK-CRAFT/blob/main/first.PNG)
